@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basketball Legends - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Basketball Legends</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Get in Touch</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Form</legend>
+                
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required><br><br>
+                
+                <label for="emailAddr">Email Address:</label>
+                <input type="email" id="emailAddr" name="emailAddr" required><br><br>
+                
+                <label for="birthDate">Date of Birth:</label>
+                <input type="date" id="birthDate" name="birthDate" required><br><br>
+                
+                <label for="inquiryType">Reason for Contact:</label>
+                <select id="inquiryType" name="inquiryType">
+                    <option value="training">Training Camps</option>
+                    <option value="sponsorship">Sponsorships</option>
+                    <option value="general">General Inquiry</option>
+                </select><br><br>
+                
+                <label for="userMessage">Message:</label><br>
+                <textarea id="userMessage" name="userMessage" rows="5" cols="40" required></textarea><br><br>
+                
+                <input type="submit" value="Send Message">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 [Your Name]</p>
+    </footer>
+</body>
+</html>
